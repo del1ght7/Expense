@@ -1,0 +1,66 @@
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:padding="16dp"
+    android:background="#F5F5F5">
+
+    <!-- Поле для ввода текста заметки -->
+    <EditText
+        android:id="@+id/noteEditText"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Введите текст"
+        android:inputType="textMultiLine"
+        android:minHeight="48dp"
+        android:padding="12dp"
+        android:layout_marginBottom="12dp"
+        android:textColor="#333333"
+        android:textSize="16sp"/>
+
+    <!-- LinearLayout для поля суммы и значка валюты -->
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:layout_marginBottom="12dp">
+
+        <!-- Поле для ввода суммы -->
+        <EditText
+            android:id="@+id/noteEditPrice"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:hint="Введите сумму"
+            android:inputType="numberDecimal"
+            android:padding="12dp"
+            android:textColor="#333333"
+            android:textSize="16sp"/>
+
+        <!-- Значок валюты BYN -->
+        <TextView
+            android:id="@+id/currencySymbol"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:text="BYN"
+            android:textSize="16sp"
+            android:textColor="#333333"
+            android:layout_marginStart="8dp"/>
+    </LinearLayout>
+
+    <!-- Кнопка для добавления заметки -->
+    <Button
+        android:id="@+id/addButton"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Добавить заметку"
+        android:textColor="#FFFFFF"
+        android:textSize="16sp"
+        android:padding="12dp"
+        android:background="@drawable/rounded_button"
+        android:layout_marginTop="16dp"
+        android:layout_marginBottom="8dp"/>
+
+</LinearLayout>

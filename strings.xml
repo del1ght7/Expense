@@ -1,0 +1,18 @@
+<resources>
+    <string name="app_name">ExpenseCalculator</string>
+    <string name="entrance">Вход</string>
+    <string name="email">Login</string>
+    <string name="enter_email">Enter login</string>
+    <string name="password">Password</string>
+    <string name="enter_your_password">Enter your password</string>
+    <string name="login">Login</string>
+    <string name="isEmpty">Если у вас еще нет аккаунта</string>
+    <string name="register">Зарегистрироваться</string>
+    <string name="done">Готово</string>
+    <string name="enter_password_register">Ведите пароль</string>
+    <string name="login_register">Введите логин</string>
+    <string name="text_login">Login</string>
+    <string name="regisration">Регистрация</string>
+    <string name="add">Добавить группу</string>
+    <string name="add_note">Добавить расходы</string>
+</resources>
